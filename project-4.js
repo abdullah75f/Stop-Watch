@@ -15,6 +15,11 @@ let leadingSeconds = 0;
 let leadingMinutes = 0;
 let leadingHours= 0;
 
+// Variables for set interval and timer status
+
+let timerInterval = null;
+let timerStatus = "stopped";
+
 //stop watch logic/function
 
 function stopWatch(){
@@ -55,4 +60,12 @@ function stopWatch(){
 
 }
 
-window.setInterval(stopWatch,1000);
+
+
+startStopBtn.addEventListener("click", function(){
+    if(timerStatus === "stopped"){
+        timerInterval =  window.setInterval(stopWatch,1000);
+        document.getElementById("startStopBtn").innerHTML = <i class = "fa-solid fa-pause" id ="pause"> </i>
+    }
+
+})
