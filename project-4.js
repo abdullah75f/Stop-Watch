@@ -10,6 +10,11 @@ let seconds = 0 ;
 let minutes = 0;
 let hours = 0 ;
 
+//variables for leading zeros
+let leadingSeconds = 0;
+let leadingMinutes = 0;
+let leadingHours= 0;
+
 //stop watch logic/function
 
 function stopWatch(){
