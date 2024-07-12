@@ -31,8 +31,27 @@ function stopWatch(){
         }
     }
 
+    if(seconds < 10){
+        leadingSeconds = "0" + seconds.toString();
+    }
+    else{
+    leadingSeconds =seconds;}
 
-        let displayTimer = document.getElementById("timer").innerText = hours + ":" + minutes + ":" + seconds
+    if(minutes < 10){
+        leadingMinutes = "0" + minutes.toString();
+    }
+    else{
+        leadingMinutes =minutes;}
+
+    if(hours < 10){
+        leadingHours = "0" + hours.toString();
+    }
+    else{
+        leadingHours =hours;}
+
+
+
+        let displayTimer = document.getElementById("timer").innerText = leadingHours + ":" + leadingMinutes + ":" + leadingSeconds
 
 }
 
