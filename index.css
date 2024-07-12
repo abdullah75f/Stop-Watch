@@ -23,6 +23,13 @@ body {
 
 }
 
-.button{
-    
+.buttons{
+    text-align:center;
+    margin-top:40px;
+
+}
+
+button{
+    margin:0 10px;
+    border:none;
 }
