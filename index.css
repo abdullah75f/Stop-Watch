@@ -14,4 +14,8 @@ body {
   box-shadow: 0 0 3px;
 }
 
-#timer;
+#timer{
+    width:100%;
+    font-size: 72px;
+    text-align:center;
+}
