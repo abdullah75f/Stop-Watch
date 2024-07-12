@@ -19,23 +19,32 @@ body {
   font-size: 72px;
   text-align: center;
   margin: 0px auto;
-  padding:35px;
-
+  padding: 35px;
 }
 
-.buttons{
-    text-align:center;
-    margin-top:40px;
-
+.buttons {
+  text-align: center;
+  margin-top: 40px;
 }
 
-button{
-    margin:0 10px;
-    border:none;
+button {
+  margin: 0 10px;
+  border: none;
 }
 
-button i{
-    font-size:2rem;
-    padding:10px;
-    color:white
+button i {
+  font-size: 2rem;
+  padding: 10px;
+  color: white;
+}
+
+#play {
+  background-color: green;
+}
+
+#pause {
+}
+
+#reset {
+  background-color: red;
 }
