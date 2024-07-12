@@ -33,3 +33,9 @@ button{
     margin:0 10px;
     border:none;
 }
+
+button i{
+    font-size:2rem;
+    padding:10px;
+    color:white
+}
