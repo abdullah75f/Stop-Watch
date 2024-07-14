@@ -15,7 +15,7 @@ let leadingSeconds = 0;
 let leadingMinutes = 0;
 let leadingHours= 0;
 
-// Variables for set interval and timer status
+// Variables for set interval and timerstatus
 
 let timerInterval = null;
 let timerStatus = "stopped";
@@ -27,7 +27,7 @@ function stopWatch(){
 
     if(seconds / 60 === 1){
         seconds = 0;
-        minutes ++;
+        min utes ++;
 
     
         if(minutes/60 ===1){
